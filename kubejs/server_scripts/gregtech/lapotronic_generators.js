@@ -131,7 +131,7 @@ ServerEvents.recipes(event => {
     LapoFuel("thermal", "electrum_coin", 6.4, -GTValues.V[GTValues.MV])
     LapoFuel("thermal", "netherite_coin", 32, -GTValues.V[GTValues.MV])
     // All 3 of these use advanced means of productions, which is reflected in their values
-    LapoFuel("thermal", "lumium_coin", 132, -GTValues.V[GTValues.MV])
-    LapoFuel("thermal", "signalum_coin", 764, -GTValues.V[GTValues.MV])
-    LapoFuel("thermal", "enderium_coin", 3640, -GTValues.V[GTValues.MV])
+    LapoFuel("thermal", "lumium_coin", 32, -GTValues.V[GTValues.HV])
+    LapoFuel("thermal", "signalum_coin", 48, -GTValues.V[GTValues.EV])
+    LapoFuel("thermal", "enderium_coin", 56, -GTValues.V[GTValues.IV])
 })
